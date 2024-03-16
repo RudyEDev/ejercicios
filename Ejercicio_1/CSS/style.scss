@@ -1,0 +1,60 @@
+.material-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    //kit para navegadores
+    -webkit-font-smoothing: antialiased;
+    //kit para safary
+    text-rendering: optimizeLegibility;
+    //kit para mozilla
+    -moz-osx-font-smoothing: grayscale;
+    //kit para IE
+    font-feature-settings: 'liga';
+}
+body{
+    font-family: sans-serif;
+}
+.search-bar{
+    //estilo de lineas, grosor, color
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 12px;
+    margin: 100px auto;
+}
+.search-bar:focus-within{
+    border: solid 1px #272bff;
+    box-shadow: 0px 2px 5px rgba(11, 11, 160, 0.2);
+}
+.search-bar input{
+    border: none;
+    outline:none;
+    pad:10px;
+    font-size: 18px;
+    flex:auto;
+}
+.search-bar .actions{
+    display: flex;
+    gap: 6px;
+}
+.search-bar .actions button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #5798ec;
+}
+.search-bar .actions button:hover{
+    color:#272bff5b;
+}
